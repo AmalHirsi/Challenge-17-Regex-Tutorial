@@ -49,16 +49,23 @@ These are a list of characters which are enclosed in square brackets and used to
 Character classes can be used to instruct the engine to match only one out of the several characters. The notation \d is used to match any single digit, in this regex it will match any single character from a-z. 
 
 ## The OR Operator
+The OR operator is also known as alternation, and is used when you want to choose between different characters. This is done by using the special character (vertical line) |. In the URL regex there is no OR operation, however an example is gra|ey which means gra or ey.
 
 ## Flags
 
-A flag is used to change the default changing behavior of an expression. This means that without a flag the ...
-There are 6 flags which can be used and each have a different outcome. The flag i (insensitive) makes the search not distinguish between lower and upper cases such as Z and z. The flag g (global) makes the search look for many occurances, without it only the first match would be returned. The y (sticky) flag allows the match to search for a match at lastIndex exactly. 
+A flag is used to change the default, changing the behavior of an expression. There are 6 flags which can be used and each have a different outcome. The flag i (insensitive) makes the search not distinguish between lower and upper cases such as Z and z. The flag g (global) makes the search look for many occurances, without it only the first match would be returned. The y (sticky) flag allows the match to search for a match at lastIndex exactly. 
 
 ## Character Escapes
+Character escaping is when a special character is used as a regular one. This is done when a backslash is put in front of it. An example of a special charcter is a colon (:), this character is used to search in the contents of fields. To search for this character and give it its literal character meaning, you must escape it by adding the backslash (\:). In the URL regex that wer are looking at there are a few examples of character escapes one of them being (\.). Here the dot is usually a special character which matches any single character, however in this regex its being used as a regular character/
 
 ## References
 https://www.oreilly.com/library/view/powershell-automating-administrative/9781787123755/ch21s02.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+https://javascript.info/regexp-alternation#:~:text=Alternation%20is%20the%20term%20in,%2C%20PHP%2C%20Java%20or%20JavaScript.
+https://www.w3schools.com/js/js_regexp.asp
+
 
 ## Author
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Amal Hirsi
+Email: ahirsi@hotmail.co.uk
+Github: https://github.com/AmalHirsi
