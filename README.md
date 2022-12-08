@@ -12,14 +12,14 @@ This regex is used to verify that the string has the correct URL format and can 
 
 ## Table of Contents
 
-Anchors
-Quantifiers
-Grouping Constructs
-Bracket Expressions
-Character Classes
-The OR Operator
-Flags
-Character Escapes
+1. Anchors
+2. Quantifiers
+3. Grouping Constructs
+4. Bracket Expressions
+5. Character Classes
+6. The OR Operator
+7. Flags
+8. Character Escapes
 
 
 # Regex Components
